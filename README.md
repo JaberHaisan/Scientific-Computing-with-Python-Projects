@@ -7,9 +7,9 @@ Test modules for the projects (along with my scripts) can be found
 <a href="https://repl.it/repls/folder/Scientific%20Computation%20with%20Python%20Projects">here</a>.
 <br><br>
 <details>
-	<summary>Arithmetic Arranger</summary>
-	<ul>
-		<li><b>Assignment</b> </br>
+<summary>Arithmetic Arranger</summary>
+<br>
+<ul><li><b>Assignment</b>
 
 Students in primary school often arrange arithmetic problems 
 vertically to make them easier to solve. For example, "235 + 52" becomes:
@@ -23,8 +23,8 @@ Create a function that receives a list of strings that are arithmetic
 problems and returns the problems arranged vertically and side-by-side. 
 The function should optionally take a second argument. When the second argument 
 is set to `True`, the answers should be displayed.
-		</li>
-		<li>
+</li>
+<li>
 <b>For example</b>
 
 Function Call:
@@ -52,9 +52,8 @@ Output:
   40     -3800     19998      474
 ```
 	
-		</li>
-		<li>
-<b>Rules</b>
+</li>
+<li><b>Rules</b>
 
 The function will return the correct conversion if the supplied problems are properly formatted, 
 otherwise, it will **return** a **string** that describes an error that is meaningful to the user.  
@@ -87,35 +86,33 @@ otherwise, it will **return** a **string** that describes an error that is meani
     * There should be dashes at the bottom of each problem. The dashes 
     should run along the entire length of each problem individually. 
     (The example above shows what this should look like.)		
-		</li>
-	<li>
-<b>Development</b>
+</li>
+<li><b>Development</b>
 
 Write your code in `arithmetic_arranger.py`. For development, 
 you can use `main.py` to test your `arithmetic_arranger()` function. 
 Click the "run" button and `main.py` will run.	
-	</li>
-	<li>
-<b>Testing</b>
+</li>
+<li><b>Testing</b>
 
 The unit tests for this project are in `test_module.py`. 
 We imported the tests from `test_module.py` to `main.py` for your convenience. 
 The tests will run automatically whenever you hit the "run" button.	
-	</li>
-	<li>
-<b>Submitting</b>
+</li>
+<li><b>Submitting</b>
 
 Copy your project's URL and submit it to freeCodeCamp.	
-	</li>
-	</ul>
+</li>
+</ul>
 </details>
 
 <br>
 
 <details>
-	<summary>Budget App</summary>
-	<ul>
-		<li><b>Assignment</b>	
+<summary>Budget App</summary>
+<br>
+<ul>
+<li><b>Assignment</b>	
 
 Complete the `Category` class in `budget.py`. It should be able to instantiate 
 objects based on different budget categories like *food*, *clothing*, and *entertainment*. 
@@ -203,33 +200,34 @@ Percentage spent by category
 
 The unit tests for this project are in `test_module.py`.
 
-		</li>
-		<li>
+</li>
+<li>
 <b>Development</b>	
 
 Write your code in `budget.py`. For development, you can use `main.py` 
 to test your `Category` class. Click the "run" button and `main.py` will run.
-		</li>
-		<li>
+</li>
+<li>
 <b>Testing</b>	
 
 We imported the tests from `test_module.py` to `main.py` for your convenience. 
 The tests will run automatically whenever you hit the "run" button.
-		</li>
-		<li>
+</li>
+<li>
 <b>Submitting</b>	
 
 Copy your project's URL and submit it to freeCodeCamp.
-		</li>
-	</ul>
+</li>
+</ul>
 </details>
 
 <br>
 
 <details>
-	<summary>Probability Calculator</summary>
-	<ul>
-		<li><b>Assignment</b>	
+<summary>Probability Calculator</summary>
+<br>
+<ul>
+<li><b>Assignment</b>	
 
 Suppose there is a hat containing 5 blue balls, 4 red balls, and 2 green balls. 
 What is the probability that a random draw of 4 balls will contain at least 1 red ball and 
@@ -296,34 +294,35 @@ different each time the code is run.
 
 *Hint: Consider using the modules that are already imported at the top of `prob_calculator.py`.*
 	
-		</li>
-		<li>
+</li>
+<li>
 <b>Development</b>
 
 Write your code in `prob_calculator.py`. For development, you can use `main.py` 
 to test your code. Click the "run" button and `main.py` will run.
-		</li>
-		<li>
+</li>
+<li>
 <b>Testing</b>
 
 The unit tests for this project are in `test_module.py`. 
 We imported the tests from `test_module.py` to `main.py` for your convenience. 
 The tests will run automatically whenever you hit the "run" button.	
-		</li>
-		<li>
+</li>
+<li>
 <b>Submitting</b>
 
 Copy your project's URL and submit it to freeCodeCamp.	
-		</li>
-	</ul>
+</li>
+</ul>
 </details>
 
 <br>
 
 <details>
-	<summary>Shape Calculator</summary>
-	<ul>
-		<li><b>Assignment</b>
+<summary>Shape Calculator</summary>
+<br>
+<ul>
+<li><b>Assignment</b>
 
 In this project you will use object oriented programming to create a Rectangle class and a Square class. 
 The Square class should be a subclass of Rectangle and inherit methods and attributes.
@@ -359,8 +358,8 @@ it should look like: `Square(side=9)`
 
 Additionally, the `set_width` and `set_height` methods on the Square class should 
 set both the width and height.	
-		</li>
-		<li>
+</li>
+<li>
 <b>Usage example</b>
 ```py
 rect = shape_calculator.Rectangle(10, 5)
@@ -382,7 +381,7 @@ rect.set_width(16)
 print(rect.get_amount_inside(sq))
 ```
 That code should return:
-```
+```py
 50
 26
 Rectangle(width=10, height=3)
@@ -403,8 +402,8 @@ Square(side=4)
 
 The unit tests for this project are in `test_module.py`.
 		
-		</li>
-	<li>
+</li>
+<li>
 <b>Development</b>
 
 Write your code in `shape_calculator.py`. For development, you can use `main.py` to test 
@@ -429,6 +428,7 @@ Copy your project's URL and submit it to freeCodeCamp.
 
 <details>
 	<summary>Time Calculator</summary>
+	<br>
 	<ul>
 	<li><b>Assignment</b>
 
@@ -471,24 +471,23 @@ add_time("6:30 PM", "205:12")
 
 Do not import any Python libraries. Assume that the start times are valid times. The minutes in the duration 
 time will be a whole number less than 60, but the hour can be any whole number.
-	</li>
-	<li>
-<b>Development</b>
+</li>
+<li><b>Development</b>
 
 Write your code in `time_calculator.py`. For development, you can use `main.py` to test your `time_calculator()` function. 
 Click the "run" button and `main.py` will run.
-	</li>
-	<li>
+</li>
+<li>
 <b>Testing</b>
 
 The unit tests for this project are in `test_module.py`. 
 We imported the tests from `test_module.py` to `main.py` for your convenience. 
 The tests will run automatically whenever you hit the "run" button.	
-	</li>
-	<li>
+</li>
+<li>
 <b>Submitting</b>
 
 Copy your project's URL and submit it to freeCodeCamp.	
-	</li>
-	</ul>
+</li>
+</ul>
 </details>
